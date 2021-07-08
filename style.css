@@ -8,3 +8,67 @@ body {
   font-family: "Lora", serif;
   font-family: "Oswald", sans-serif;
 }
+
+.header {
+  display: flex;
+  text-align: center;
+}
+
+.half-width {
+  width: 20%;
+}
+
+.logo {
+  width: 100px;
+}
+
+.menu-bar {
+  width: 60%;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+}
+
+.menu-bar ul li {
+  list-style: none;
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 7px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  font-family: "Lora";
+  font-weight: 700;
+  color: #0033cc;
+}
+
+.active,
+.menu-bar ul li:hover {
+  background-color: #b4c4f3;
+}
+
+.menu-bar ul li:hover a {
+  color: white;
+}
+
+.highlight-text {
+  font-family: "lora";
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #0033cc;
+  margin-top: -50px;
+  margin-right: 190px;
+}
+
+.highlight-text p {
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 45px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
